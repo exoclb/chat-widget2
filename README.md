@@ -1,5 +1,7 @@
 # Twitch Chat Widget Pro
 
+<img width="658" height="517" alt="image" src="https://github.com/user-attachments/assets/e9bb3728-30a7-4499-84a8-90fb09d40e1f" />
+
 Custom StreamElements widget for Twitch chat overlays.
 
 ## Files
