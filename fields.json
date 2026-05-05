@@ -1,0 +1,392 @@
+{
+  "widgetName": {
+    "type": "hidden",
+    "value": "Twitch Chat Widget Pro"
+  },
+  "themePreset": {
+    "type": "dropdown",
+    "label": "Theme preset",
+    "value": "glass",
+    "options": {
+      "glass": "Glass",
+      "midnight": "Midnight",
+      "sunset": "Sunset",
+      "terminal": "Terminal",
+      "vtuber": "VTuber-ish"
+    }
+  },
+  "densityPreset": {
+    "type": "dropdown",
+    "label": "Density preset",
+    "value": "comfortable",
+    "options": {
+      "compact": "Compact",
+      "comfortable": "Comfortable",
+      "spacious": "Spacious"
+    }
+  },
+  "animationPreset": {
+    "type": "dropdown",
+    "label": "Animation preset",
+    "value": "smooth",
+    "options": {
+      "smooth": "Smooth",
+      "snappy": "Snappy",
+      "floaty": "Floaty",
+      "minimal": "Minimal"
+    }
+  },
+  "maxMessages": {
+    "type": "number",
+    "label": "Maximum visible messages",
+    "value": 6,
+    "min": 1,
+    "max": 30
+  },
+  "messageLifetime": {
+    "type": "number",
+    "label": "Auto-hide after seconds",
+    "value": 20,
+    "min": 0,
+    "max": 300
+  },
+  "showAvatars": {
+    "type": "dropdown",
+    "label": "Show avatars",
+    "value": "yes",
+    "options": {
+      "yes": "Yes",
+      "no": "No"
+    }
+  },
+  "showBadges": {
+    "type": "dropdown",
+    "label": "Show badges",
+    "value": "yes",
+    "options": {
+      "yes": "Yes",
+      "no": "No"
+    }
+  },
+  "showEmotes": {
+    "type": "dropdown",
+    "label": "Render Twitch emotes",
+    "value": "yes",
+    "options": {
+      "yes": "Yes",
+      "no": "No"
+    }
+  },
+  "showUsernameColor": {
+    "type": "dropdown",
+    "label": "Use Twitch username color",
+    "value": "yes",
+    "options": {
+      "yes": "Yes",
+      "no": "No"
+    }
+  },
+  "showReplies": {
+    "type": "dropdown",
+    "label": "Show reply context",
+    "value": "yes",
+    "options": {
+      "yes": "Yes",
+      "no": "No"
+    }
+  },
+  "mergeConsecutiveMessages": {
+    "type": "dropdown",
+    "label": "Group consecutive messages",
+    "value": "yes",
+    "options": {
+      "yes": "Yes",
+      "no": "No"
+    }
+  },
+  "groupWindowSeconds": {
+    "type": "number",
+    "label": "Grouping window in seconds",
+    "value": 14,
+    "min": 1,
+    "max": 120
+  },
+  "hideCommands": {
+    "type": "dropdown",
+    "label": "Hide command messages",
+    "value": "yes",
+    "options": {
+      "yes": "Yes",
+      "no": "No"
+    }
+  },
+  "commandPrefix": {
+    "type": "text",
+    "label": "Command prefix",
+    "value": "!"
+  },
+  "hideBotAccounts": {
+    "type": "dropdown",
+    "label": "Hide bot accounts",
+    "value": "yes",
+    "options": {
+      "yes": "Yes",
+      "no": "No"
+    }
+  },
+  "botKeywords": {
+    "type": "text",
+    "label": "Bot name keywords",
+    "value": "bot, streamlabs, streamelements"
+  },
+  "highlightMentions": {
+    "type": "dropdown",
+    "label": "Highlight mentions",
+    "value": "yes",
+    "options": {
+      "yes": "Yes",
+      "no": "No"
+    }
+  },
+  "highlightKeywords": {
+    "type": "text",
+    "label": "Highlight keywords",
+    "value": "gg, important, raid"
+  },
+  "highlightRoles": {
+    "type": "dropdown",
+    "label": "Highlight roles",
+    "value": "yes",
+    "options": {
+      "yes": "Yes",
+      "no": "No"
+    }
+  },
+  "showRolePills": {
+    "type": "dropdown",
+    "label": "Show role pills",
+    "value": "yes",
+    "options": {
+      "yes": "Yes",
+      "no": "No"
+    }
+  },
+  "showFirstChatterPill": {
+    "type": "dropdown",
+    "label": "Show first chatter pill",
+    "value": "yes",
+    "options": {
+      "yes": "Yes",
+      "no": "No"
+    }
+  },
+  "showReturningPill": {
+    "type": "dropdown",
+    "label": "Show returning chatter pill",
+    "value": "yes",
+    "options": {
+      "yes": "Yes",
+      "no": "No"
+    }
+  },
+  "sessionReturnThreshold": {
+    "type": "number",
+    "label": "Returning chatter threshold",
+    "value": 3,
+    "min": 1,
+    "max": 20
+  },
+  "styleActionMessages": {
+    "type": "dropdown",
+    "label": "Style action messages",
+    "value": "yes",
+    "options": {
+      "yes": "Yes",
+      "no": "No"
+    }
+  },
+  "showAnnouncementPill": {
+    "type": "dropdown",
+    "label": "Show announcement pill",
+    "value": "yes",
+    "options": {
+      "yes": "Yes",
+      "no": "No"
+    }
+  },
+  "showHighlightPill": {
+    "type": "dropdown",
+    "label": "Show highlight pill",
+    "value": "yes",
+    "options": {
+      "yes": "Yes",
+      "no": "No"
+    }
+  },
+  "emphasizeHighlightedMessages": {
+    "type": "dropdown",
+    "label": "Emphasize highlighted messages",
+    "value": "yes",
+    "options": {
+      "yes": "Yes",
+      "no": "No"
+    }
+  },
+  "showDeletedPlaceholder": {
+    "type": "dropdown",
+    "label": "Show deleted message placeholder",
+    "value": "yes",
+    "options": {
+      "yes": "Yes",
+      "no": "No"
+    }
+  },
+  "deletedPlaceholderLifetime": {
+    "type": "number",
+    "label": "Deleted placeholder seconds",
+    "value": 3,
+    "min": 1,
+    "max": 30
+  },
+  "bulkClearAnimation": {
+    "type": "dropdown",
+    "label": "Animate bulk moderation clears",
+    "value": "yes",
+    "options": {
+      "yes": "Yes",
+      "no": "No"
+    }
+  },
+  "persistSessionState": {
+    "type": "dropdown",
+    "label": "Persist chatter session state",
+    "value": "yes",
+    "options": {
+      "yes": "Yes",
+      "no": "No"
+    }
+  },
+  "storeNamespace": {
+    "type": "text",
+    "label": "Store namespace",
+    "value": "twitch-chat-widget"
+  },
+  "compactMode": {
+    "type": "dropdown",
+    "label": "Legacy compact mode",
+    "value": "no",
+    "options": {
+      "yes": "Yes",
+      "no": "No"
+    }
+  },
+  "editorPreviewMessages": {
+    "type": "number",
+    "label": "Editor preview message count",
+    "value": 2,
+    "min": 0,
+    "max": 10
+  },
+  "showIdleState": {
+    "type": "dropdown",
+    "label": "Show idle state in OBS",
+    "value": "no",
+    "options": {
+      "yes": "Yes",
+      "no": "No"
+    }
+  },
+  "idleTitle": {
+    "type": "text",
+    "label": "Idle state title",
+    "value": "Chat is live"
+  },
+  "idleMessage": {
+    "type": "text",
+    "label": "Idle state message",
+    "value": "Waiting for the next message"
+  },
+  "fontFamily": {
+    "type": "text",
+    "label": "Font family",
+    "value": "'Space Grotesk', 'Segoe UI', sans-serif"
+  },
+  "fontSize": {
+    "type": "number",
+    "label": "Base font size",
+    "value": 16,
+    "min": 10,
+    "max": 32
+  },
+  "messageGap": {
+    "type": "number",
+    "label": "Gap between messages",
+    "value": 10,
+    "min": 0,
+    "max": 40
+  },
+  "borderRadius": {
+    "type": "number",
+    "label": "Bubble corner radius",
+    "value": 18,
+    "min": 0,
+    "max": 40
+  },
+  "backgroundColor": {
+    "type": "colorpicker",
+    "label": "Bubble background color",
+    "value": "rgb(15, 23, 42)"
+  },
+  "backgroundOpacity": {
+    "type": "number",
+    "label": "Bubble background opacity",
+    "value": 78,
+    "min": 0,
+    "max": 100
+  },
+  "messageTextColor": {
+    "type": "colorpicker",
+    "label": "Message text color",
+    "value": "rgb(241, 245, 249)"
+  },
+  "usernameFallbackColor": {
+    "type": "colorpicker",
+    "label": "Fallback username color",
+    "value": "rgb(125, 211, 252)"
+  },
+  "replyBackgroundColor": {
+    "type": "colorpicker",
+    "label": "Reply background color",
+    "value": "rgba(255, 255, 255, 0.08)"
+  },
+  "replyTextColor": {
+    "type": "colorpicker",
+    "label": "Reply text color",
+    "value": "rgba(226, 232, 240, 0.82)"
+  },
+  "highlightBorderColor": {
+    "type": "colorpicker",
+    "label": "Highlight border color",
+    "value": "rgba(250, 204, 21, 0.5)"
+  },
+  "highlightGlowColor": {
+    "type": "colorpicker",
+    "label": "Highlight glow color",
+    "value": "rgba(250, 204, 21, 0.16)"
+  },
+  "placeholderTextColor": {
+    "type": "colorpicker",
+    "label": "Deleted placeholder text color",
+    "value": "rgba(248, 250, 252, 0.72)"
+  },
+  "avatarFallbackTextColor": {
+    "type": "colorpicker",
+    "label": "Avatar fallback text color",
+    "value": "rgb(248, 250, 252)"
+  },
+  "avatarFallbackBackgroundColor": {
+    "type": "colorpicker",
+    "label": "Avatar fallback background",
+    "value": "rgba(15, 23, 42, 0.55)"
+  }
+}
